@@ -1,0 +1,73 @@
+*{
+    list-style: none;
+}
+
+header{
+    background-color: rgb(206, 199, 199);
+    width: 780px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding-left: 30px;
+    border-bottom: 3px solid rgb(46, 15, 221);
+}
+
+.imagem{
+    display: inline;
+    margin-top: 10px;
+}
+figure{
+    position: relative;
+    right: 40px;
+}
+
+figcaption{
+    position: absolute;
+    bottom: 1px;
+    background-color: rgb(12, 12, 158);
+    width: 780px;
+    height: 60px;
+    opacity: 0.74;
+    
+}
+
+figcaption p{
+    color: white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+
+.sat summary{
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    height: 30px;
+    color: white;
+    padding-left: 8px;
+    margin-bottom: 15px;
+    width: 780px;
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 780px;
+    height: 50px;
+}
+
+footer p {
+    color: white;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 800px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
